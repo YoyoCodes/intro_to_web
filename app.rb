@@ -9,5 +9,6 @@ get "/other"do
   "Other message"
 end
 get "/cat" do
+  @name = ["Laura", "Lucy"].sample
   erb(:index)
 end
